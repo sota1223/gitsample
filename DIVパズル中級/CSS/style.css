@@ -1,0 +1,60 @@
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.second {
+  float: left;
+}
+
+.first {
+  width: 400px;
+  height: 450px;
+}
+
+.red-box {
+  height: 100px;
+  background: #f10000;
+}
+
+.lightgreen-box {
+  width: 150px;
+  height: 250px;
+  background: #00ff10;
+  float: left;
+}
+
+.lightpurple-box {
+  width: 150px;
+  height: 50px;
+  background: #cc00db;
+}
+
+.skyblue-box {
+  width: 150px;
+  height: 100px;
+  background: #0093b7;
+}
+
+.beige-box {
+  height: 150px;
+  width: 100px;
+  background: #ff9e6d;
+  float: left;
+}
+
+.brown-box {
+  height: 100px;
+  width: 250px;
+  background: #8c2727;
+}
+
+.yellow-box {
+  height: 100px;
+  background: #fff700;
+}
+
+.second-top-left {
+  float: left;
+}

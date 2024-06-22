@@ -1,0 +1,38 @@
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.main {
+  width: 400px;
+  height: 450px;
+  margin: 100px;
+}
+
+.red-box {
+  height: 100px;
+  width: 400px;
+  background: #f10000;
+}
+
+.lightgreen-box {
+  width: 150px;
+  height: 250px;
+  background: #00ff10;
+  float: left;
+}
+
+.blue-box {
+  width: 250px;
+  height: 250px;
+  background: #3300ff;
+  float: left;
+}
+
+.yellow-box {
+  height: 100px;
+  width: 400px;
+  background: #ffe600;
+}
