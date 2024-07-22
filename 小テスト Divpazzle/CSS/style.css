@@ -6,43 +6,21 @@
 }
 
 .white-box {
-  /*width: 160px;
-  height: 60px;*/
   background-color: white;
   display: flex;
   position: absolute;
   top: 20px; 
   right: 20px; 
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 .purple-box1 {
   width: 40px;
   height: 40px;
-  margin: 10px 5px 10px 10px;
+  margin-left: 10px;
   background-color: #6729a0;
-  /*position: absolute;
-  top: 30px;
-  right: 80px;*/
-}
-
-.purple-box2 {
-  width: 40px;
-  height: 40px;
-  margin: 10px 5px 10px 5px; 
-  background-color: #6729a0;
-  /*position: absolute;
-  top: 30px;
-  right: 130px;*/
-}
-
-.purple-box3 {
-  width: 40px;
-  height: 40px;
-  margin: 10px 10px 10px 5px;
-  background-color: #6729a0;
-  /*position: absolute;
-  top: 30px;
-  right: 30px;*/
 }
 
 .green-box {
@@ -55,63 +33,17 @@
   width: 250px;
   height: 250px;
   background-color: #2563eb;
-  /*position: relative;*/
 }
 
-/*.white-box1 {
-  width: 150px;
-  height: 50px;
-  background-color: white;
-  position: absolute;
+.orange-box1:first-child {
   margin-top: 40px;
   margin-left: 40px;
-}*/
+}
 
 .orange-box1 {
   width: 140px;
   height: 40px;
   background-color: #ff863f;
-  /*position: absolute;*/
-  margin-top: 40px;
-  margin-left: 40px;
-  border: 5px solid;
-  border-color: aliceblue;
-}
-
-/*.white-box2 {
-  width: 150px;
-  height: 50px;
-  background-color: white;
-  position: absolute;
-  margin-top: 100px;
-  margin-left: 40px;
-}*/
-
-.orange-box2 {
-  width: 140px;
-  height: 40px;
-  background-color: #ff863f;
-  /*position: absolute;*/
-  margin-top: 10px;
-  margin-left: 40px;
-  border: 5px solid;
-  border-color: aliceblue;
-}
-
-/*.white-box3 {
-  width: 150px;
-  height: 50px;
-  background-color: white;
-  position: absolute;
-  margin-top: 160px;
-  margin-left: 40px;
-}*/
-
-.orange-box3 {
-  width: 140px;
-  height: 40px;
-  background-color: #ff863f;
-  /*position: absolute;*/
   margin-top: 10px;
   margin-left: 40px;
   border: 5px solid;
@@ -123,12 +55,6 @@
   height: 100px;
   background-color: #fd0;
 }
-
-/* .clearfix::after { 
-  content: "";
-  display: block;
-  clear: both;
-}*/
 
 .second-box{
   display: flex;
